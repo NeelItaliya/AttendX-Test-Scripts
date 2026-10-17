@@ -21,3 +21,7 @@ assert login("", "1234") == "Username Required"
 print("Test 3 Passed: Empty Username")
 
 print("All Login Tests Passed!")
+
+# Test Case 4: Incorrect username
+assert login("wronguser", "1234") == "Login Failed"
+print("Test 4 Passed: Incorrect Username")
